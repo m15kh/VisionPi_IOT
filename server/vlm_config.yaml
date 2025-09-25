@@ -1,0 +1,17 @@
+# Configuration for Vision-Language Model prompts and settings
+
+# Prompts for different vision tasks
+prompts:
+  image_captioning: "Describe the content of the image in detail."
+
+
+# Model settings
+settings:
+  # Generate more concise or more detailed responses
+  response_length: "concise"  # options: "concise", "detailed"
+  
+  # Temperature for response generation (higher = more creative, lower = more deterministic)
+  temperature: 0.1
+  
+  # Maximum tokens to generate in response
+  max_tokens: 30
